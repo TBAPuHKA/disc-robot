@@ -4,9 +4,9 @@ const client = new Discord.Client();
 
  
 
-client.on('ох ох', () => {
+client.on('ready', () => {
 
-    console.log('что ж ты маленьким не сдох');
+    console.log('I am ready!');
 
 });
 
@@ -16,7 +16,7 @@ client.on('message', message => {
 
     if (message.content === 'atma') {
 
-       message.reply('SHAME');
+       message.reply(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
 
        }
 
