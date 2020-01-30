@@ -4,9 +4,9 @@ const client = new Discord.Client();
 
  
 
-client.on('ready', () => {
+client.on('ох ох', () => {
 
-    console.log('I am ready!');
+    console.log('что ж ты маленьким не сдох');
 
 });
 
@@ -14,9 +14,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === 'ping') {
+    if (message.content === 'atma') {
 
-       message.reply('pong');
+       message.reply('SHAME');
 
        }
 
