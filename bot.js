@@ -22,7 +22,7 @@ client.on('message', message => {
        }
      if (message.content === '.test') {
 
-       message.reply('` css'+<p>+'online `');
+       message.reply('```css'+<p>+'online```');
 
        }
 
