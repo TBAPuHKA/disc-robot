@@ -32,26 +32,6 @@ client.on('message', message => {
   else { message.channel.send('```wrong command, comrade``` :duck:')
   }
 
-/*
-  if (message.content ==='atma') {
-
-    message.channel.send(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
-
- }
-*/
-/*
-  if (message.content === 'atma') {
-
-     message.reply(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
-
-  }
-
-  if (message.content === '>test') {
-
-     message.reply('```we invading the world!``` :duck:');
-
-  }
-*/
 });
 
  
