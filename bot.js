@@ -22,8 +22,7 @@ client.on('message', message => {
        }
      if (message.content === '>test') {
 
-       message.reply('```we invading the 
-                     world```');
+       message.reply('```we invading the <br> world```');
 
        }
 
