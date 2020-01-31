@@ -15,12 +15,13 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-  //if (>message.content.startsWith(prefix)) return;
-/*
+  if (>message.content.startsWith(prefix)) return;
+
   if (message.content.startsWith(prefix + 'test')) {
     message.channel.send('```check```');
   }
-*/
+
+/*
   if (message.content === 'atma') {
 
      message.reply(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
@@ -34,9 +35,9 @@ client.on('message', message => {
   }
 
 });
-
+*/
  
 
-// THIS  MUST  BE  THIS  WAY
+
 
 client.login(process.env.BOT_TOKEN);//BOT_TOKEN is the Client Secret
