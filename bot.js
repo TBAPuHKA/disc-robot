@@ -13,11 +13,10 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + 'test')) {
      message.channel.send('```we invading the world, comrade!``` :duck:');
     }
+    else { message.channel.send('```wrong command, comrade``` :duck:')
+    }
   }
    
-  else { message.channel.send('```wrong command, comrade``` :duck:')
-  }
-
 });
 
  
