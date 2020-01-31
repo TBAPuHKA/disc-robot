@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 });
 
- 
+
 
 
 client.on('message', message => {
@@ -18,6 +18,11 @@ client.on('message', message => {
     if (message.content === 'atma') {
 
        message.reply(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
+
+       }
+     if (message.content === '.test') {
+
+       message.reply('` css'+<p>+'online `');
 
        }
 
