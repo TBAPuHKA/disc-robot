@@ -20,7 +20,7 @@ client.on('message', message => {
    if (message.content.startsWith(prefix + 'test')) {
     message.channel.send('```we invading the world, comrade!``` :duck:');
    }
-  }
+  } else break;
 /*
   if (message.content ==='atma') {
 
