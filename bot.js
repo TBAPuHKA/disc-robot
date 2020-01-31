@@ -15,12 +15,16 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
+  if (message.content ==='atma') {
+
+    message.channel.send(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
+  }
   if (message.content.startsWith(prefix)) {
 
    if (message.content.startsWith(prefix + 'test')) {
     message.channel.send('```we invading the world, comrade!``` :duck:');
    }
-  } else break;
+  }
 /*
   if (message.content ==='atma') {
 
