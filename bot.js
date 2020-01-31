@@ -19,7 +19,7 @@ client.on('message', message => {
 
   if (message.content.startsWith(prefix)) {
     for (i=0;i<comm.length;i++) {
-      if (message.content==comm[i]) {
+      if (message.content==prefix+comm[i]) {
 
     if (message.content ===prefix+'ma') {
       message.channel.send(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
