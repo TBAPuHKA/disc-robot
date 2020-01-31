@@ -16,7 +16,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-  if (message.content.startsWith(prefix)) {
+  if (message.content.startsWith(prefix) || message.author.bot) {
 
     if (message.content ===prefix+'ma') {
       message.channel.send(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
