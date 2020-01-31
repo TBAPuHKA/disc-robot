@@ -22,7 +22,7 @@ client.on('message', message => {
        }
      if (message.content === '>test') {
 
-       message.reply('```'+'online```');
+       message.reply('```online```');
       console.log('HOUSTON!');
 
        }
