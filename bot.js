@@ -1,19 +1,6 @@
 Discord = require('discord.js');
-
-client = new Discord.Client();
+client = Discord.Client();
 prefix = "at.";
-comm=[test,ma];
-
- 
-/*
-client.on('ready', () => {
-
-    console.log('I am ready!');
-
-});
-*/
-
-
 
 client.on('message', message => {
 
