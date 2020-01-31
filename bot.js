@@ -22,8 +22,8 @@ client.on('message', message => {
        }
      if (message.content === '>test') {
 
-       message.reply('```online```');
-      console.log('HOUSTON!');
+       message.reply('```we invading the 
+                     world```');
 
        }
 
