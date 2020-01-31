@@ -18,7 +18,7 @@ client.on('message', message => {
   //if (message.content.startsWith(prefix)) return;
 
   if (message.content.startsWith(prefix + 'test')) {
-    message.channel.send('```check```');
+    message.channel.send('```we invading the world!``` :duck:');
   }
 
   if (message.content ==='atma') {
