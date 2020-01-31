@@ -20,9 +20,10 @@ client.on('message', message => {
        message.reply(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
 
        }
-     if (message.content === '?test') {
+     if (message.content === '>test') {
 
        message.reply('```online```');
+      console.log('HOUSTON!');
 
        }
 
