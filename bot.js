@@ -26,7 +26,7 @@ client.on('message', message => {
      message.channel.send('```we invading the world, comrade!``` :duck:');
     }
 
-   else { message.channel.send('wrong command, comrade :duck:')
+   else { message.channel.send('```wrong command, comrade``` :duck:')
    }
   }
 /*
