@@ -1,6 +1,6 @@
-Discord = require('discord.js');
-client = Discord.Client();
-prefix = "at.";
+const Discord = require('discord.js');
+const client = new Discord.Client();
+let prefix = "at.";
 
 client.on('message', message => {
 
