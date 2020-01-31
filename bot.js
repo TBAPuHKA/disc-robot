@@ -21,7 +21,7 @@ client.on('message', message => {
     message.channel.send('```check```');
   }
 
-  if (message.content('atma')) {
+  if (message.content ==='atma') {
 
     message.channel.send(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
 
