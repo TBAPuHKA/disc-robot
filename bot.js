@@ -17,12 +17,16 @@ client.on('ready', () => {
 client.on('message', message => {
 
   if (message.content.startsWith(prefix)) {
-   if (message.content ===prefix) {
 
-     message.channel.send(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
-   } else message.channel.send('u forgot about command, take 1 duck :duck:')
-   if (message.content.startsWith(prefix + 'test')) {
-    message.channel.send('```we invading the world, comrade!``` :duck:');
+    if (message.content ===prefix) {
+      message.channel.send(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
+    } 
+
+    if (message.content.startsWith(prefix + 'test')) {
+     message.channel.send('```we invading the world, comrade!``` :duck:');
+    }
+    
+   else { message.channel.send('wrong command, comrade :duck:')
    }
   }
 /*
