@@ -6,7 +6,7 @@ client.on('message', message => {
   
   if (message.content.startsWith(prefix)) {
 
-    if (message.content ===prefix+'atma') {
+    if (message.content.startsWith(prefix + 'atma')) {
       message.channel.send(':regional_indicator_s: :regional_indicator_h: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e:');
     } 
 
