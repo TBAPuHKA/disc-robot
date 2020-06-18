@@ -12,9 +12,8 @@ client.on('message', message => {
 
     if (message.content.startsWith(prefix + 'test')) {
      message.channel.send('```we invading the world, comrade!``` :duck:');
-    }
-    else { message.channel.send('```css wrong command, comrade``` :duck:')
-    }
+    }    
+    } else { message.channel.send('```css'+'\n'=' wrong command, comrade``` :duck:')
   }
    
 });
